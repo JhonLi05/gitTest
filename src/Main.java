@@ -14,14 +14,13 @@ public class Main {
             System.out.println("i = " + i);
         }
 
-        Persona p1 = new Persona(1,"Liam");
-        Persona p2 = new Persona(2,"Zeus");
-        Persona p3 = new Persona(3,"Bigo");
+        Persona p1 = new Persona("Liam",1);
+        Persona p2 = new Persona("Zeus",2);
+        Persona p3 = new Persona("Bigo",3);
 
         System.out.println(p1);
         System.out.println(p2);
         System.out.println(p3);
-
-
+        
     }
 }
