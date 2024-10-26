@@ -18,11 +18,13 @@ public class Main {
         Persona p2 = new Persona("Zeus",2);
         Persona p3 = new Persona("Bigo",3);
         Persona p4 = new Persona("Jack",4);
+        Persona p5 = new Persona("Jagger",5);
 
         System.out.println(p1);
         System.out.println(p2);
         System.out.println(p3);
         System.out.println(p4);
+        System.out.println(p5);
 
     }
 }
