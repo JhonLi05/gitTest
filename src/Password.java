@@ -1,3 +1,3 @@
-public interface Password {
-    public double password();
+public @interface Password {
+    public String value() default "1111";
 }
